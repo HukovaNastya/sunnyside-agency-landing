@@ -16,6 +16,10 @@ p, h1 , h2, h3, h4, h5, h6 {
   display: flex;
 }
 
+.d-grid {
+  display: grid;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -56,7 +60,7 @@ button {
 }
 
 .container {
-  max-width: 1072px;
+  max-width: 1300px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -117,7 +121,92 @@ button {
   text-align: center;
 }
 
+.transform-brand {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
 
+.container-for-brand {
+  max-width: 600px;
+  margin-left:  150px;
+}
+
+.transform-brand-info .transform-brand-info-title {
+  max-width: 445px;
+  font-weight: 900;
+  font-family: 'Fraunces', serif;
+  margin-top: 200px;
+  font-size: 40px;
+  line-height: 49.5px;
+  text-align: center;
+  margin-bottom: 32px;
+  color: #24303E;
+}
+
+.transform-brand-info-text {
+  font-family: 'Barlow', sans-serif;
+  color: #808397;
+  max-width: 445px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.transform-brand-info-link {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 15px;line-height: 25px;
+  margin-left: 5px;
+  border-bottom: 4px solid #FAD400;
+}
+
+.transform-brand-img-info {
+  margin-left: 60px;
+}
+
+.stand-out-to {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.stand-out-img-info {
+  margin-top: 10px;
+  width: 800px;
+}
+
+.stand-out-to-title {
+  max-width: 445px;
+  font-weight: 900;
+  font-family: 'Fraunces', serif;
+  margin-top: 200px;
+  font-size: 40px;
+  line-height: 49.5px;
+  text-align: center;
+  margin-bottom: 32px;
+  color: #24303E;
+  margin-left: 200px;
+}
+
+.stand-out-to-text {
+  font-family: 'Barlow', sans-serif;
+  color: #808397;
+  max-width: 445px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 40px;
+  margin-left: 200px;
+}
+
+.stend-out-to-link {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 15px;line-height: 25px;
+  margin-left: 5px;
+  border-bottom: 4px solid #FE7766;
+  margin-left: 200px;
+}
 /*
 font-family: 'Barlow', sans-serif;
 font-family: 'Fraunces', serif; */
